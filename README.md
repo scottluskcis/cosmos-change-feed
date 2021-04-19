@@ -4,7 +4,7 @@ Various examples for working with Cosmos Change Feed
 
 ## CFP Library Example
 
-To run `CfpLibraryHost` you will need to have a `launchSettings.json` file that exists in the `Properties` folder. You can set these values by going to `Properties` of the `csproj` itself or by adding this file and updating the values
+To run `CfpLibraryHost` you will need to have a `launchSettings.json` file that exists in the `Properties` folder. You can set these values by going to the `Debug` `Properties` of the `csproj` itself or by adding this file and updating the values
 
 ```json
 {
