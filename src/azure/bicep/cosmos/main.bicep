@@ -80,12 +80,12 @@ module productMetaContainer './container.bicep' = {
   }
 }
 
-module leaseContainer './container.bicep' = {
-  name: 'deployLeaseContainer'
+module leasesContainer './container.bicep' = {
+  name: 'deployLeasesContainer'
   params: {
     accountName: cosmosAccountName
     databaseName: cosmosDatabaseName
-    containerName: 'lease'
+    containerName: 'leases'
     partitionKeyPath: '/id'
     throughputPolicy: 'Manual'
     manualProvisionedThroughput: 400

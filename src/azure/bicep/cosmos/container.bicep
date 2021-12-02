@@ -57,7 +57,7 @@ resource cosmosContainer 'Microsoft.DocumentDB/databaseAccounts/sqlDatabases/con
           }
         ]
       }
-      defaultTtl: 86400
+      //defaultTtl: 86400
     }
     options: throughput_Policy[throughputPolicy]
   }
