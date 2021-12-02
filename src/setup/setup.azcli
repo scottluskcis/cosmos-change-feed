@@ -1,0 +1,15 @@
+# connect
+az login
+
+# optional, set subscription if using multiple
+# az account list
+# az account set --subscription "Your Subscription"
+
+# create resource group
+az group create --name changefeed-scenarios-rg --location eastus
+
+# perform deployment
+az deployment group create -g changefeed-scenarios-rg -n ChangeFeedScenariosDeployment -f bicep/main.bicep --parameters @bicep/main.parameters.json --verbose
+
+# logout
+az logout
