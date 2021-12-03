@@ -21,7 +21,7 @@ If you are new to change feed be sure to check out the Microsoft Documentation: 
 
 ## Examples
 
-The examples folder contains various examples of scenarios you may encounter where change feed could be beneficial
+The apps folder contains various examples of scenarios you may encounter where change feed could be beneficial
 
 * [Replication](./examples/Replication/README.md): Replicating containers for multiple partition keys
 * [Denormalization](./examples/Denormalization/README.md): Denormalizing a document data model across containers
